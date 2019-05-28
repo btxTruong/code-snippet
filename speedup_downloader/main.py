@@ -1,13 +1,9 @@
-# todo link down
-# todo split file into parts
-# todo using thread to download each part
 import getpass
 import os
 import threading
 import time
-
 import requests
-import ultils  # noqa
+import ultils  
 
 CHUCK_SIZE = 1024 * 1024 * 2  # 2MB
 DEFAULT_CACHE_DIR = '/home/{}/speedup_download/'.format(getpass.getuser())
